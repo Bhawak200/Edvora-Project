@@ -1,0 +1,188 @@
+@import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Serif:wght@500&display=swap');
+
+* {
+font-family: 'IBM Plex Serif', serif;
+  color: black;
+  font-style: normal;
+}
+
+
+
+/* Header */
+
+.title {
+  margin-left: 10%;
+  font-size: 3rem;
+  cursor: pointer;
+}
+
+.nav-items {
+  margin-left: 44%;
+  cursor: pointer;
+}
+.nav-item :hover {
+  color:black !important;
+  background-color: white;
+  border: solid 2px;
+  text-align: center;
+  border-radius: 4rem;
+
+}
+@media only screen and (max-width: 800px) {
+  .title {
+    margin-left: 4%;
+  }
+  .nav-items {
+    margin-left: 0;
+  }
+  .nav-items :hover {
+    text-align: left;
+    padding-left: 1%;
+  }
+}
+
+/* Carousel */
+.carousel-item >img {
+  height:75vh;
+  width:100%
+}
+
+/* About */
+
+.intro-font {
+  font-size: 15px;
+  margin-top: 0.5%;
+}
+.img-border {
+  border: solid 2px white;
+}
+.about{
+  margin-left:8%;
+  margin-right: 10%;
+}
+.about-style,
+.mission-style {
+  position: relative;
+  left: 50%;
+  width: 4.5rem;
+  background: #c6781b;
+  box-shadow: rgba(0, 0, 0, 0.25);
+  transform: skew(20deg);
+  cursor: none;
+}
+
+
+/* Glimpse of Pokemons */ 
+.poke-row{
+  margin-left: 8%;
+  margin-right: 10%;
+}
+
+
+.poke1{
+ border: 1px solid rgba(0, 0, 0, 0.2);
+  box-sizing: border-box;
+  box-shadow: 10px 10px 20px rgba(0, 0, 0, 0.25);
+  border-radius: 16px;
+  margin-right:10px;
+  margin-top:35px;
+  margin-bottom: 20px;
+  background: url("./Images/Charizard.png") center center no-repeat;
+ -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -ms-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  height:50vh;
+  width: 100%;
+}
+.poke2{
+  border: 1px solid rgba(0, 0, 0, 0.2);
+  box-sizing: border-box;
+  box-shadow: 10px 10px 20px rgba(0, 0, 0, 0.25);
+  border-radius: 16px;
+  margin-right:10px;
+  margin-top:35px;
+  margin-bottom: 20px;
+  background: url("./Images/meowth.jpg") center center no-repeat;
+ -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -ms-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+   height:50vh;
+  width: 100%;
+}
+.poke3{
+  margin-right:10px;
+  margin-top:35px;
+  margin-bottom: 20px;
+  background: url("./Images/pikachu.jpg") center center no-repeat;
+ -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -ms-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+   height:50vh;
+  width: 100%;
+  border: 1px solid rgba(0, 0, 0, 0.2);
+box-sizing: border-box;
+box-shadow: 10px 10px 20px rgba(0, 0, 0, 0.25);
+border-radius: 16px;
+}
+.poke4{
+   margin-right:15px;
+  margin-top:35px;
+  margin-bottom: 20px;
+  background: url("./Images/Blastoise.jpg") center center no-repeat;
+   -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -ms-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+ height:50vh;
+  width: 100%;
+  border: 1px solid rgba(0, 0, 0, 0.2);
+box-sizing: border-box;
+box-shadow: 10px 10px 20px rgba(0, 0, 0, 0.25);
+border-radius: 16px;
+}
+.deg_btn {
+  display: inline-block;
+  width:168px;
+  padding:0 1em;
+  text-transform: none;
+  height:50px;
+  font-size: 24px;
+  background: #c6781b;
+  color: rgb(255, 255, 255);
+  border-radius: 35px 0px;
+  cursor: pointer;
+}
+
+
+/* Mission */
+
+.mission-row{
+  margin-left:8%;
+  margin-right: 10%;
+}
+.mission-style{
+  width:6rem;
+}
+.mission-front{
+  font-size: 13px;
+}
+
+/* Footer */
+.footer-follow{
+display: inline-block;
+ padding: 1rem;
+color: white;
+}
+
+footer {
+  position: relative;
+  background-color: black !important;
+  color: white;
+}
