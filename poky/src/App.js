@@ -1,21 +1,21 @@
 
 import './App.css';
-import Carousel from './Components/LandingPage/Carousel';
-import Header from './Components/LandingPage/Header';
-import About from './Components/LandingPage/About';
-import GlimpseofPoke from './Components/LandingPage/GlimpseOfPoke';
-import Mission from './Components/LandingPage/Mission';
-import Footer from "./Components/LandingPage/Footer"
-
+import Home from "./Components/LandingPage/Home"
+import SearchPokemon from './Components/PokemonInfoPage/SearchPokemon';
+import {
+  BrowserRouter as Router,
+  Switch,
+  Route,
+} from "react-router-dom";
 function App() {
   return (
     <div>
-      <Header />
-      <Carousel />
-      <About />
-      <GlimpseofPoke />
-      <Mission />
-      <Footer />
+      <Router>
+        <Switch>
+          <Route path="/" exact><Home /></Route>
+          <Route path="/pokemons"><SearchPokemon /></Route>
+        </Switch>
+      </Router>
     </div>
 
   );

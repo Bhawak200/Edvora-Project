@@ -39,6 +39,9 @@ font-family: 'IBM Plex Serif', serif;
     text-align: left;
     padding-left: 1%;
   }
+  .poke-list{
+    margin:2% 1%;
+  }
 }
 
 /* Carousel */
@@ -61,14 +64,14 @@ font-family: 'IBM Plex Serif', serif;
   margin-right: 10%;
 }
 .about-style,
-.mission-style {
+.mission-style{
   position: relative;
   left: 50%;
   width: 4.5rem;
   background: #c6781b;
   box-shadow: rgba(0, 0, 0, 0.25);
   transform: skew(20deg);
-  cursor: none;
+  cursor:inherit;
 }
 
 
@@ -185,4 +188,86 @@ footer {
   position: relative;
   background-color: black !important;
   color: white;
+}
+
+/* Pokemon Page */
+.form-style{
+  border:1px solid black;
+  box-sizing: border-box;
+  box-shadow: 10px 10px 20px rgba(0, 0, 0, 0.25);
+ border-radius: 16px;
+  height: 50vh;
+  width: 50%;
+  margin-left:25%;
+  margin-right:20%;
+  margin-top: 3%;
+  background: url("./Images/NavbarBg.svg") center center no-repeat;
+   -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -ms-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  max-height: max-content;
+}
+.input{
+  position: relative;
+  top:15%;
+}
+.form-label{
+  font-size: 2rem;
+  padding:3%;
+  padding-bottom: 1%;
+}
+.form-control{
+  width: 50%;
+  margin-bottom:2%;
+  margin-left:25%;
+  margin-right: 25%;
+  border-radius: 16px;
+  border-color: black;
+}
+.submit-button{
+  color:white;
+  font-size: 18px;
+  position: relative;
+  top:18%;
+  width: max-content;
+  border-radius: 16px;
+  background-color:#c6781b ;
+}
+
+.poke-content{
+  margin:5% 8%;
+}
+.poke-list{
+  height: 100%;
+  margin:0% 5%;
+  box-sizing: border-box;
+  box-shadow: 10px 10px 20px rgba(0, 0, 0, 0.25);
+  border:1px solid black;
+  border-radius: 16px;
+  background: url("./Images/pokebg.jpg") center center no-repeat;
+   -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -ms-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  max-height: max-content;
+}
+.poke-content{
+ color: white;
+ text-align: center;
+}
+.zoom :hover{
+  transform: scale(1.1);
+}
+.zoom > img{
+  height:100%;
+  width: 50%;
+}
+
+@media only screen and (max-width: 800px){
+   .poke-list{
+    margin:4% 1%;
+  }
 }

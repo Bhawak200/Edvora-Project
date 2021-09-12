@@ -2,7 +2,7 @@ import about from "../../Images/About.svg"
 
 const About = () => {
   return (
-    <div className="container-fluid">
+    <div className="container-fluid" id="About">
       <div className="row p-4">
         <h2 className="text-center my-2">About</h2>
         <div className="btn about-style btn-sm "></div>
