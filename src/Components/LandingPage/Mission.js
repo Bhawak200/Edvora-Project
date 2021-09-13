@@ -9,10 +9,10 @@ const Mission = () => {
       </div>
       <div className="row mission-row">
         <div className="col-lg-6">
-          <h4 className="tomission">
+          <h4 className="toCenter">
             What Problem Poky is trying to solve ?
           </h4>
-          <p className="intro-font mission-front">
+          <p className="intro-font">
             We are the people who want to bring a smile to everyone's face by reminding them of their good childhood memories
             and what can be better than this famous show? Now you can come to this site if you are struggling hard for your favorite pokemon's move.
             Also, what is better than talking to your old friend about pokemon and
