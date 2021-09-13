@@ -14,16 +14,10 @@ const About = () => {
         <div className="col-lg-6">
           <h4>Why Users Love Poky</h4>
           <p className="intro-font">
-            Users can select the company from various companies present in our website and can see the stocks value and can check the prices.
-            After selecting the Company Users should have ability to switch between OHLC, Colored
-            Bar and Vertex Line.
-            An OHLC chart shows the open, high, low, and close price for a given period it can be applied to any frame .
-            The vertical line represents the high and low for the period, while the line to the left marks the open price and the line to the right marks the closing price. This entire
-            structure is called a bar.
-            <br />
-            Technical traders use a variety of stock charts to analyze market data in order to pinpoint optimum entry and exit points for their trades. By setting up efficient charts and workspaces,
-            you'll gain quick access to the data you need to make profitable trading decisions.
-            In Our website users can see tha stocks variation for different compaines with different types of graphs they can choose to their comfort .
+            You must have watched pokemon in your childhood, isn't it? Or do you still watch that famous show? If it's true,
+            you must have searched for a place where you can find information about each pokemon's power moves, favorite attacks, or
+            strength. Here we are with details of all the pokemon from Pikachu to Bulbasaur, from Charmander to Wartotle, from Psychic to
+            Ghost Pokemon; we have got all those in a single place.
           </p>
         </div>
       </div>
