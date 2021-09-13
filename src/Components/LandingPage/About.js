@@ -12,7 +12,7 @@ const About = () => {
           <img src={about} className="w-100 h-90 mx-auto img-fluid img-border rounded" alt="book"></img>
         </div>
         <div className="col-lg-6">
-          <h4>Why Users Love Poky</h4>
+          <h4 className="tomission">Why Users Love Poky</h4>
           <p className="intro-font">
             You must have watched pokemon in your childhood, isn't it? Or do you still watch that famous show? If it's true,
             you must have searched for a place where you can find information about each pokemon's power moves, favorite attacks, or

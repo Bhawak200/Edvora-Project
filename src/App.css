@@ -271,4 +271,8 @@ footer {
    .poke-list{
     margin:4% 1%;
   }
+  .intro-font,
+  .tomission{
+    text-align: center;
+  }
 }
