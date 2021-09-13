@@ -53,8 +53,9 @@ font-family: 'IBM Plex Serif', serif;
 /* About */
 
 .intro-font {
-  font-size: 15px;
+  font-size: 20px;
   margin-top: 0.5%;
+  font-weight:normal;
 }
 .img-border {
   border: solid 2px white;
@@ -174,7 +175,7 @@ border-radius: 16px;
   width:6rem;
 }
 .mission-front{
-  font-size: 13px;
+  font-size: 18px;
 }
 
 /* Footer */
